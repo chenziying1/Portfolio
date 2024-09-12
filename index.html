@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link rel="stylesheet" href="./static/bootstrap.min.css"/>
+    <style>
+    .blog-footer {
+      padding: 2.5rem 0;
+      color: #727272;
+      text-align: center;
+      background-color: #f9f9f9;
+      border-top: .05rem solid #e5e5e5;
+    }
+    .blog-footer p:last-child {
+      margin-bottom: 0;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+        <div class="container">
+          <a class="navbar-brand" href="#">CZY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img id="pet" src="./static/图片1.png" alt="Pet Image" style="display: none;">
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://pythonczy.pythonanywhere.com">主页</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://blog.csdn.net/m0_56366541">开发/学习日志</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./templates/2048.html">内置小游戏</a>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <main class="container">
+        <div class="p-4 p-md-5 mb-4 text-white rounded" style="background-image:url('./static/背景.jpg');">
+          <div class="col-md-6 px-0">
+              <h1 class="display-4 fst-italic">欢迎来到这里！</h1>
+              <p class="lead my-3">python项目开发,flask web开发,python爬虫开发,JAVA安卓app开发,unity游戏开发...这里是编程界的一个小角落,有着无穷的宝藏等着你去发掘。</p>
+              <p class="lead mb-0"><a href="https://blog.csdn.net/m0_56366541" class="text-white fw-bold">前往博客...</a></p>
+          </div>
+      </div>
+      
+      
+      
+      
+      
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">编程语言</strong>
+                <h3 class="mb-0">Python</h3>
+                <div class="mb-1 text-muted">November 29,2022</div>
+                <p class="card-text mb-auto">Python由荷兰数学和计算机科学研究学会的吉多·范罗苏姆于1990年代初设计，作为一门叫做ABC语言的替代品。Python提供了高效的高级数据结构，还能简单有效地面向对象编程。</p>
+                <a href="https://www.python.org/" class="stretched-link">Continue reading</a>
+              </div>
+              <div class="col-auto d-none d-lg-block" style="width: 200px; height: 250px;">
+                <img src="./static/小夏.jpg" alt="Placeholder: Thumbnail" >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">编程语言</strong>
+                <h3 class="mb-0">C#</h3>
+                <div class="mb-1 text-muted">November 29,2022</div>
+                <p class="mb-auto">C#是微软公司发布的一种由C和C++衍生出来的面向对象的编程语言、运行于.NET Framework和.NET Core之上的高级程序设计语言。C#是微软公司研究员Anders Hejlsberg的最新成果。</p>
+                <a href="https://learn.microsoft.com/zh-cn/dotnet/csharp/tour-of-csharp/" class="stretched-link">Continue reading</a>
+              </div>
+              <div class="col-auto d-none d-lg-block" style="width: 200px; height: 250px;">
+                <img src="./static/白子.jpg" alt="Placeholder: Thumbnail" >
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row g-5">
+          <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+              作品详情
+            </h3>
+      
+            <article class="blog-post">
+              <div id="projectsContainer">
+                <div class="project">
+                    <h2>猫狗图像分类器</h2>
+                    <p><strong>日期：</strong>January 14, 2024</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>使用 Tensorflow 2.0 和 Keras 创建的一个卷积神经网络，对狗和猫的图像进行分类。该网络至少 63% 的时间可以正确分类猫和狗的图像。</p>
+                    <p><strong>附加信息：</strong>基于tensorflow完成的项目，可以实现猫狗图像的分类</p>
+                    <p><a href="https://colab.research.google.com/drive/1nZbTmnB0_ScXcJxFHltz8w4o61YpxPpv">项目链接</a></p>
+                </div>
+                <hr />
+        
+                <div class="project">
+                    <h2>基于 KNN 的图书推荐引擎</h2>
+                    <p><strong>日期：</strong>January 29, 2024</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个图书推荐算法，包括 90,000 名用户对 270,000 册书籍的 110 万份评分（评分从 1 至 10）。</p>
+                    <p><strong>附加信息：</strong>基于tensorflow完成的项目，可以实现书籍的推荐</p>
+                    <p><a href="https://colab.research.google.com/drive/1OUUwV2HfDPnvJwJn_KxMUmgrPLIExqg0#scrollTo=S1YH34VbZHBi">项目链接</a></p>
+                </div>
+                <hr />
+        
+                <div class="project">
+                    <h2>神经网络短信文本分类器</h2>
+                    <p><strong>日期：</strong>January 10, 2024</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个机器学习模型，将短信分类为 “ham” 或 “spam”。 “ham” 消息是朋友发送的正常消息。 “spam” 是一个公司发送的广告或信息。</p>
+                    <p><strong>附加信息：</strong>基于tensorflow完成的项目，可以实现广告和正常消息的分类</p>
+                    <p><a href="https://colab.research.google.com/drive/1uo5XwMccgzYlyGIG-npVPJZ2w98lDhWq">项目链接</a></p>
+                </div>
+                <hr />
+
+                <div class="project">
+                    <h2>基于Android的智能安防系统</h2>
+                    <p><strong>日期：</strong>October 3, 2023</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于安卓系统开发的智能安防应用程序，可以帮助用户监控和保护家庭或办公场所的安全。</p>
+                    <p><strong>附加信息：</strong>基于安卓系统</p>
+                    <p><a href="https://colab.research.google.com/drive/1uo5XwMccgzYlyGIG-npVPJZ2w98lDhWq">项目链接</a></p>
+                </div>
+                <hr />
+
+                <div class="project">
+                    <h2>基于Android的智能灯控系统</h2>
+                    <p><strong>日期：</strong>June 18, 2023</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于安卓系统的智能家居控制应用程序，可以让用户通过手机控制智能灯具的开关、亮度和颜色。</p>
+                    <p><strong>附加信息：</strong>基于安卓系统</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+                <div class="project">
+                    <h2>基于Android的智能生活系统</h2>
+                    <p><strong>日期：</strong>March 7, 2023</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于安卓系统的综合智能生活应用程序，集成了多种功能，如天气预报、日程管理、健康监测等，为用户提供便捷的生活服务。</p>
+                    <p><strong>附加信息：</strong>基于安卓系统</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+                <div class="project">
+                    <h2>基于Android的智能防疫系统</h2>
+                    <p><strong>日期：</strong>November 19, 2022</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于安卓系统的智能健康管理应用程序，可以帮助用户监测健康状况、管理个人防疫信息，并提供健康建议和预警提示。</p>
+                    <p><strong>附加信息：</strong>基于安卓系统</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+                <div class="project">
+                    <h2>职业生涯专业版(已上线)</h2>
+                    <p><strong>日期：</strong>August 24, 2022</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个已经上线的职业生涯管理应用程序，为用户提供简历建设服务，帮助用户实现职业发展目标。</p>
+                    <p><strong>附加信息：</strong>基于flask</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+                <div class="project">
+                    <h2>基于FLASK的智能医院管理系统</h2>
+                    <p><strong>日期：</strong>February 4, 2022</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于 Flask 框架开发的智能医院管理系统，用于管理医院的日常运营和管理事务，包括患者信息、医生排班、医疗资源等。</p>
+                    <p><strong>附加信息：</strong>基于flask</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+                <div class="project">
+                    <h2>基于FLASK的截止日期计算器</h2>
+                    <p><strong>日期：</strong>June 8, 2022</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于 Flask 框架开发的截止日期计算工具，用户可以输入任务或项目的截止日期和当前日期，系统将计算出剩余时间并提供提醒。</p>
+                    <p><strong>附加信息：</strong>基于flask</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+                <div class="project">
+                    <h2>基于FLASK的语音识别</h2>
+                    <p><strong>日期：</strong>December 30, 2022</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于 Flask 框架的语音识别应用程序，用户可以通过语音输入文本或命令，实现语音转文字的功能。</p>
+                    <p><strong>附加信息：</strong>基于flask</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+                <div class="project">
+                    <h2>基于FLASK的简单聊天机器人</h2>
+                    <p><strong>日期：</strong>April 17, 2022</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于 Flask 框架的简单聊天机器人应用程序，可以与用户进行简单的对话和交流。</p>
+                    <p><strong>附加信息：</strong>基于flask</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+                <div class="project">
+                    <h2>基于FLASK的学生信息管理系统</h2>
+                    <p><strong>日期：</strong>September 8, 2022</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于 Flask 框架开发的学生信息管理系统，用于学校或机构管理学生信息、课程安排、成绩记录等。</p>
+                    <p><strong>附加信息：</strong>基于flask</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+                <div class="project">
+                    <h2>基于c#的商品数据爬取分析可视化系统</h2>
+                    <p><strong>日期：</strong>October 19, 2022</p>
+                    <p><strong>作者：</strong>CZY</p>
+                    <p><strong>描述：</strong>一个基于 C# 编程语言开发的商品数据爬取、分析和可视化系统，用于收集、分析和展示商品销售数据，帮助用户做出决策。</p>
+                    <p><strong>附加信息：</strong>基于c#</p>
+                    <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+                
+               
+              </div>
+              
+              <h2 class="blog-post-title">基于python的数据爬取项目合集</h2>
+              <br />
+              <div class="container">
+                  <table class="table table-bordered table-striped">
+                      <tbody>
+                          <thead>
+                              <th>项目名称</th>
+                          </thead>
+                          <tr>
+                              <td>boss直聘职位数据采集</td>
+                              <td>pubmed论文信息采集</td>
+                              <td>SCRAPY百度新闻爬取</td>
+                          </tr>
+                          <tr>
+                              <td>教育信息网站采集</td>
+                              <td>百度地图测距</td>
+                              <td>完本小说爬取</td>
+                          </tr>
+                          <tr>
+                              <td>股票数据采集</td>
+                              <td>项目信息采集</td>
+                              <td>去哪儿火车票爬取</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              <hr />
+      
+              <h2 class="blog-post-title">基于Django的小型web项目合集</h2>
+              <br />
+              <div class="container">
+                  <table class="table table-bordered table-striped">
+                      <tbody>
+                          <thead>
+                              <th>项目名称</th>
+                          </thead>
+                          <tr>
+                              <td>Django可视化爬取</td>
+                              <td>Django语音识别</td>
+                              <td>Django在线视频网站</td>
+                          </tr>
+                          <tr>
+                              <td>Django在线点名系统</td>
+                              <td>Django加密解密工具</td>
+                              <td>Django日程记录器</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+            </article>
+      
+          </div>
+      
+          <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem;">
+              <div class="p-4 mb-3 bg-light rounded">
+                <h4 class="fst-italic">关于</h4>
+                <p class="mb-0">商业转载请提前与本人联系，非商业转载请注明出处，可以通过1060324818@qq.com联系到本人</p>
+              </div>
+      
+              <!--<div class="p-4">
+                <h4 class="fst-italic">日期档案</h4>
+                <ol class="list-unstyled mb-0">
+                  <li><a href="#">March 2022</a></li>
+                  <li><a href="#">February 2022</a></li>
+                  <li><a href="#">January 2022</a></li>
+                  <li><a href="#">December 2022</a></li>
+                  <li><a href="#">November 2022</a></li>
+                  <li><a href="#">October 2022</a></li>
+                  <li><a href="#">September 2022</a></li>
+                  <li><a href="#">August 2022</a></li>
+                  <li><a href="#">July 2022</a></li>
+                  <li><a href="#">June 2022</a></li>
+                  <li><a href="#">May 2022</a></li>
+                  <li><a href="#">April 2022</a></li>
+                </ol>
+              </div>-->
+      
+              <div class="p-4">
+                <h4 class="fst-italic">其他关联</h4>
+                <ol class="list-unstyled">
+                  <li><a href="https://github.com/chenziying1?tab=projects">GitHub</a></li>
+                  <li><a href="https://gitee.com/CZY321789">Gitee</a></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </main>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="blog-footer">
+      <p>版权所有 © 2024 github_czy 保留一切权利。未经作者许可，严禁转载、摘编、复制或建立镜像。</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+   
+
+    <script type="text/javascript" src="./static/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./static/popper.min.js"></script>
+    <script type="text/javascript" src="./static/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./static/jquery-3.6.0.min.js"></script>
+    <script>
+
+    </script>
+   </body>
+</html>
+

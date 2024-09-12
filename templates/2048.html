@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="../static/bootstrap.min.css"/>
+    <style>
+    .blog-footer {
+      padding: 2.5rem 0;
+      color: #727272;
+      text-align: center;
+      background-color: #f9f9f9;
+      border-top: .05rem solid #e5e5e5;
+    }
+    .blog-footer p:last-child {
+      margin-bottom: 0;
+    }
+    </style>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" href="../static/style.css"/>
+	<script type="text/javascript" src="../static/jquery.min.js"></script>
+	<script type="text/javascript" src="../static/main.js"></script>
+	<script type="text/javascript" src="../static/showanimation.js"></script>
+	<script type="text/javascript" src="../static/support.js"></script>
+	<script type="text/javascript" src="../static/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../static/popper.min.js"></script>
+    <script type="text/javascript" src="../static/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+        <div class="container">
+          <a class="navbar-brand" href="#">CZY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img id="pet" src="../static/图片1.png" alt="Pet Image" style="display: none;">
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://pythonczy.pythonanywhere.com">主页</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://blog.csdn.net/m0_56366541">开发/学习日志</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">内置小游戏</a>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+	<header>
+		<h1>2048</h1>
+		<a href="javascript:new_game();" id="new_game_button">New Game</a>
+		<p>score: <span id="score">0</span></p>
+	</header>
+	<div id="grid_container" class="container-fluid">
+		<div class="grid_cell" id="grid_cell_0_0"></div>
+		<div class="grid_cell" id="grid_cell_0_1"></div>
+		<div class="grid_cell" id="grid_cell_0_2"></div>
+		<div class="grid_cell" id="grid_cell_0_3"></div>
+
+		<div class="grid_cell" id="grid_cell_1_0"></div>
+		<div class="grid_cell" id="grid_cell_1_1"></div>
+		<div class="grid_cell" id="grid_cell_1_2"></div>
+		<div class="grid_cell" id="grid_cell_1_3"></div>
+
+		<div class="grid_cell" id="grid_cell_2_0"></div>
+		<div class="grid_cell" id="grid_cell_2_1"></div>
+		<div class="grid_cell" id="grid_cell_2_2"></div>
+		<div class="grid_cell" id="grid_cell_2_3"></div>
+
+		<div class="grid_cell" id="grid_cell_3_0"></div>
+		<div class="grid_cell" id="grid_cell_3_1"></div>
+		<div class="grid_cell" id="grid_cell_3_2"></div>
+		<div class="grid_cell" id="grid_cell_3_3"></div>
+	</div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="blog-footer">
+      <p>版权所有 © 2024 github_czy 保留一切权利。未经作者许可，严禁转载、摘编、复制或建立镜像。</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+   
+
+    
+   </body>
+</html>
+
+
