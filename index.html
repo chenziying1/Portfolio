@@ -97,6 +97,27 @@
       
             <article class="blog-post">
               <div id="projectsContainer">
+
+                <div class="project"></div>
+                  <h2>pdf引用解析工具</h2>
+                  <p><strong>日期：</strong>August 20, 2024</p>
+                  <p><strong>作者：</strong>CZY</p>
+                  <p><strong>描述：</strong>用 pdfminer 和 re 库实现对 PDF 文档的解析与数据提取，支持将解析结果保存为 TXT 和 CSV 格式。用户可以选择解析单个 PDF 文档或整个文件夹中的多个文档。</p>
+                  <p><strong>附加信息：</strong>该工具能够提取 PDF 文档中的文本和引用信息，适用于学术研究和数据分析。现通过tkinter打包为exe文件，无需安装即可使用。</p>
+                  <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+
+                <div class="project">
+                  <h2>基于scrapy-redis的分布式小说爬取工具</h2>
+                  <p><strong>日期：</strong>August 14, 2024</p>
+                  <p><strong>作者：</strong>CZY</p>
+                  <p><strong>描述：</strong>构建一个高效的分布式爬虫系统，用于爬取和存储数据。通过使用 Scrapy-Redis 框架，系统能够在多个节点上并行运行。</p>
+                  <p><strong>附加信息：</strong>该系统采用 Redis 作为任务队列和数据存储，确保了任务的去重和分发。</p>
+                  <p><a href="#">项目链接</a></p>
+                </div>
+                <hr />
+
                 <div class="project">
                     <h2>猫狗图像分类器</h2>
                     <p><strong>日期：</strong>January 14, 2024</p>
@@ -337,6 +358,7 @@
     <br>
     <footer class="blog-footer">
       <p>版权所有 © 2024 github_czy 保留一切权利。未经作者许可，严禁转载、摘编、复制或建立镜像。</p>
+      <p><div id="visit-count"></div></p>
       <p>
         <a href="#">Back to top</a>
       </p>
@@ -348,7 +370,19 @@
     <script type="text/javascript" src="./static/bootstrap.min.js"></script>
     <script type="text/javascript" src="./static/jquery-3.6.0.min.js"></script>
     <script>
-
+      // 获取当前的访问次数
+      var count = localStorage.getItem("visitCount");
+      // 如果访问次数不存在，则设置为 1
+      if (!count) {
+          count = 1;
+      } else {
+          // 否则将访问次数加 1
+          count = parseInt(count) + 1;
+      }
+      // 将访问次数保存到 localStorage 中
+      localStorage.setItem("visitCount", count);
+      // 更新计数器的显示
+      document.getElementById("visit-count").innerHTML = "本站已被访问 " + count + " 次";
     </script>
    </body>
 </html>
