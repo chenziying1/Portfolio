@@ -24,11 +24,11 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <img id="pet" src="./static/图片1.png" alt="Pet Image" style="display: none;">
+          <!--<img id="pet" src="./static/图片1.png" alt="Pet Image" style="display: none;">-->
           <div class="collapse navbar-collapse" id="navbarsExample07">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="http://pythonczy.pythonanywhere.com">主页</a>
+                <a class="nav-link active" aria-current="page" href="#">主页</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://blog.csdn.net/m0_56366541">开发/学习日志</a>
@@ -37,9 +37,9 @@
                 <a class="nav-link" href="./templates/2048.html">内置小游戏</a>
               </li>
             </ul>
-            <form role="search">
+            <!--<form role="search">
               <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            </form>
+            </form>-->
           </div>
         </div>
       </nav>
@@ -53,11 +53,7 @@
               <p class="lead mb-0"><a href="https://blog.csdn.net/m0_56366541" class="text-white fw-bold">前往博客...</a></p>
           </div>
       </div>
-      
-      
-      
-      
-      
+
         <div class="row mb-2">
           <div class="col-md-6">
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -104,7 +100,7 @@
                   <p><strong>作者：</strong>CZY</p>
                   <p><strong>描述：</strong>用 pdfminer 和 re 库实现对 PDF 文档的解析与数据提取，支持将解析结果保存为 TXT 和 CSV 格式。用户可以选择解析单个 PDF 文档或整个文件夹中的多个文档。</p>
                   <p><strong>附加信息：</strong>该工具能够提取 PDF 文档中的文本和引用信息，适用于学术研究和数据分析。现通过tkinter打包为exe文件，无需安装即可使用。</p>
-                  <p><a href="#">项目链接</a></p>
+                  <p><a href="#" id="project-link">项目链接</a></p>
                 </div>
                 <hr />
 
@@ -318,7 +314,9 @@
             <div class="position-sticky" style="top: 2rem;">
               <div class="p-4 mb-3 bg-light rounded">
                 <h4 class="fst-italic">关于</h4>
-                <p class="mb-0">商业转载请提前与本人联系，非商业转载请注明出处，可以通过1060324818@qq.com联系到本人</p>
+                <p class="mb-0">商业转载请提前与本人联系。</p>
+                <p class="mb-0">如需转载，请注明出处，并在文章末尾附上本站链接，谢谢！</p>
+                <P>作者邮箱：1060324818@qq.com</P>
               </div>
       
               <!--<div class="p-4">
@@ -368,7 +366,8 @@
     <script type="text/javascript" src="./static/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./static/popper.min.js"></script>
     <script type="text/javascript" src="./static/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./static/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./static/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
     <script>
       // 获取当前的访问次数
       var count = localStorage.getItem("visitCount");
@@ -383,7 +382,26 @@
       localStorage.setItem("visitCount", count);
       // 更新计数器的显示
       document.getElementById("visit-count").innerHTML = "本站已被访问 " + count + " 次";
+    
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const link = document.getElementById('project-link');
+        link.addEventListener('click', (e) => {
+          e.preventDefault(); // 阻止默认的链接行为
+          const userConfirmed = confirm('是否确认下载？');
+          if (userConfirmed) {
+            const downloadLink = document.createElement('a');
+            downloadLink.href = './static/资源/pdf文件引用解析工具.7z'; // 文件路径
+            downloadLink.download = 'pdf文件引用解析工具---czy.7z'; // 下载时的文件名
+            document.body.appendChild(downloadLink); // 将链接添加到 DOM 中
+            downloadLink.click(); // 模拟点击事件触发下载
+            document.body.removeChild(downloadLink); // 移除链接
+          }
+        });
+      });
+      
+    
     </script>
+    
    </body>
 </html>
 
