@@ -110,7 +110,7 @@
                   <p><strong>作者：</strong>CZY</p>
                   <p><strong>描述：</strong>用 pdfminer 和 re 库实现对 PDF 文档的解析与数据提取，支持将解析结果保存为 TXT 和 CSV 格式。用户可以选择解析单个 PDF 文档或整个文件夹中的多个文档。</p>
                   <p><strong>附加信息：</strong>该工具能够提取 PDF 文档中的文本和引用信息，适用于学术研究和数据分析。现通过tkinter打包为exe文件，无需安装即可使用。</p>
-                  <p><a href="#" id="project-link">项目链接</a></p>
+                  <p><a href="#">项目链接</a></p>
                 </div>
                 <hr />
 
@@ -374,24 +374,7 @@
       localStorage.setItem("visitCount", count);
       // 更新计数器的显示
       document.getElementById("visit-count").innerHTML = "本站已被访问 " + count + " 次";
-    
-      document.addEventListener('DOMContentLoaded', (event) => {
-        const link = document.getElementById('project-link');
-        link.addEventListener('click', (e) => {
-          e.preventDefault(); // 阻止默认的链接行为
-          const userConfirmed = confirm('是否确认下载？');
-          if (userConfirmed) {
-            const downloadLink = document.createElement('a');
-            downloadLink.href = './static/资源/pdf文件引用解析工具.7z'; // 文件路径
-            downloadLink.download = 'pdf文件引用解析工具---czy.7z'; // 下载时的文件名
-            document.body.appendChild(downloadLink); // 将链接添加到 DOM 中
-            downloadLink.click(); // 模拟点击事件触发下载
-            document.body.removeChild(downloadLink); // 移除链接
-          }
-        });
-      });
-      
-    
+  
     </script>
     
    </body>
