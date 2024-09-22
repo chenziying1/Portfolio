@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制开发</title>
+    <link rel="stylesheet" href="../static/bootstrap.min.css"/>
+    
+    <style>
+    .blog-footer {
+      padding: 2.5rem 0;
+      color: #727272;
+      text-align: center;
+      background-color: #f9f9f9;
+      border-top: .05rem solid #e5e5e5;
+    }
+    .blog-footer p:last-child {
+      margin-bottom: 0;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+        <div class="container">
+          <a class="navbar-brand" href="#">CZY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://chenziying1.github.io/Portfolio/#">主页</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">定制开发</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://blog.csdn.net/m0_56366541">开发/学习日志</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./2048.html">内置小游戏</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container">
+        <div class="p-4 p-md-5 mb-4 text-white rounded" style="background-image:url('../static/背景.jpg');">
+          <div class="col-md-6 px-0">
+              <h1 class="display-4 fst-italic">欢迎来到这里！</h1>
+              <p class="lead my-3">python项目开发,flask web开发,python爬虫开发,JAVA安卓app开发,unity游戏开发...这里是编程界的一个小角落,有着无穷的宝藏等着你去发掘。</p>
+          </div>
+        </div>
+
+        <div style="width: 45%; margin: 0 auto; margin-top: 50px;">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="exampleInputEmail1">联系邮件地址：</label>
+              <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="emalpe@163.com">
+              <small id="emailHelp" class="form-text text-muted">该邮件只会用于我们之间的联系，不会被第三方获取。</small>
+            </div>
+            <div class="form-group">
+              <label for="Textarea1">您的需求：</label>
+              <textarea class="form-control" id="requirement" name="requirement" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="Textarea2">想向我询问的问题：</label>
+              <textarea class="form-control" id="question" name="question" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">提交</button>
+          </form>
+        </div>
+
+        <!-- 弹出消息的具体内容 -->
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+          <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="../static/头像.jpg" class="rounded me-2" alt="..." style="width: 30px; height: 30px;">
+              <strong class="me-auto">系统消息</strong>
+              <small>刚刚</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              您的需求已提交成功！我们会在1-2天内尽快联系您，请注意您的邮箱，谢谢！
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      
+
+      
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <footer class="blog-footer">
+        <p>版权所有 © 2024 github_czy 保留一切权利。未经作者许可，严禁转载、摘编、复制或建立镜像。</p>
+        <p id="visit-count"></p>
+        <p>
+          <a href="#">Back to top</a>
+        </p>
+      </footer>
+   
+
+      <script type="text/javascript" src="../static/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="../static/popper.min.js"></script>
+      <script type="text/javascript" src="../static/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../static/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+      <script>
+        // 获取当前的访问次数
+        var count = localStorage.getItem("visitCount");
+        // 如果访问次数不存在，则设置为 1
+        if (!count) {
+            count = 1;
+        } else {
+            // 否则将访问次数加 1
+            count = parseInt(count) + 1;
+        }
+        // 将访问次数保存到 localStorage 中
+        localStorage.setItem("visitCount", count);
+        // 更新计数器的显示
+        document.getElementById("visit-count").innerHTML = "本站已被访问 " + count + " 次";
+    
+      </script>
+      <script>
+          document.getElementById('contactForm').addEventListener('submit', function(event) {
+              event.preventDefault();  // 阻止表单的默认提交行为
+              
+              // 创建表单数据对象
+              let formData = new FormData(this);
+              
+              // 使用 fetch 发送 POST 请求到 Flask 后端
+              fetch('http://hifumi.freewebhostmost.com/submit-form', {
+                  method: 'POST',
+                  body: formData,
+              })
+              .then(response => response.json())  // 将响应解析为 JSON
+              .then(data => {
+                  if (data.status === 'success') {
+                      // 显示成功消息的 Toast
+                      var toastElement = document.getElementById('liveToast');
+                      var toast = new bootstrap.Toast(toastElement, {
+                        delay: 3000,  // 持续显示3秒后自动消失
+                        autohide: true  // 自动消失
+                      });
+                      toast.show();// 显示 Toast 消息
+                  }
+              })
+              .catch(error => {
+                  console.error('提交表单时发生错误:', error);
+              });
+          });
+      </script>
+    
+   </body>
+</html>
+
