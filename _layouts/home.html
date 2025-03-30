@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!--
+
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -31,74 +31,4 @@ layout: default
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
-</div>
--->
-<div class="home-container">
-  <!-- 左侧条栏 -->
-  <aside class="sidebar left-sidebar">
-    <h3>站点导航</h3>
-    <ul>
-      <li><a href="{{ "/" | relative_url }}">首页</a></li>
-      <li><a href="{{ "/about" | relative_url }}">关于我</a></li>
-      <li><a href="{{ "/categories" | relative_url }}">文章分类</a></li>
-      <li><a href="{{ "/archives" | relative_url }}">归档</a></li>
-    </ul>
-    
-    <h3>热门标签</h3>
-    <ul class="tag-list">
-      <li><a href="{{ "/tags/编程" | relative_url }}">编程</a></li>
-      <li><a href="{{ "/tags/技术" | relative_url }}">技术</a></li>
-      <li><a href="{{ "/tags/生活" | relative_url }}">生活</a></li>
-      <li><a href="{{ "/tags/分享" | relative_url }}">分享</a></li>
-    </ul>
-  </aside>
-
-  <!-- 主要内容区域 -->
-  <main class="main-content">
-    {%- if page.title -%}
-      <h1 class="page-heading">{{ page.title }}</h1>
-    {%- endif -%}
-
-    {{ content }}
-
-    {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-      <ul class="post-list">
-        {%- for post in site.posts -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    {%- endif -%}
-
-  </main>
-
-  <!-- 右侧条栏 -->
-  <aside class="sidebar right-sidebar">
-    <h3>关于我</h3>
-    <p>Hi，我是一名热爱编程的开发者，喜欢记录和分享技术心得。如果你也对技术充满热情，欢迎关注我的博客和社交账号。</p>
-    
-    <h3>社交链接</h3>
-    <ul class="social-links">
-      <li><a href="https://github.com/chenziying1" target="_blank">GitHub</a></li>
-      <li><a href="https://gitee.com/CZY321789" target="_blank">Gitee</a></li>
-    </ul>
-    
-    <h3>近期文章</h3>
-    <ul class="recent-posts">
-      <li><a href="{{ "/posts/2024-09-29-除夕猜灯谜小游戏" | relative_url }}">除夕猜灯谜小游戏</a></li>
-    </ul>
-  </aside>
-  
 </div>
