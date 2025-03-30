@@ -1,0 +1,52 @@
+.site-footer {
+    background: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    margin-top: 40px;
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .footer-social {
+    margin-top: 15px;
+  }
+  
+  .footer-social h4 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+  }
+  
+  .social-media-list li {
+    margin: 0 8px;
+  }
+  
+  .social-media-list a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media-list svg,
+  .social-media-list img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+  
+  .social-media-list .username {
+    display: none; /* 若只需图标，可隐藏用户名 */
+  }
+  
