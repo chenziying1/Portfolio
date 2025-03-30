@@ -1,7 +1,7 @@
 name: Deploy with Modern Jekyll
 on:
   push:
-    branches: [ main ]
+    branches: [ jekyll ]
 permissions:
   contents: write
   pages: write
