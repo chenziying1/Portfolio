@@ -1,48 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-03-30T22:19:21+08:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">czy的编程小屋</title><subtitle>欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。</subtitle><entry><title type="html">除夕猜灯谜小游戏</title><link href="http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html" rel="alternate" type="text/html" title="除夕猜灯谜小游戏" /><published>2024-09-29T00:00:00+08:00</published><updated>2024-09-29T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html"><![CDATA[<p>layout: post
-title: “除夕猜灯谜小游戏”
-date: 2024-09-29
-author: CZY
-categories: [游戏开发]
-tags: [Python, 网页游戏]
-description: “年关将至，除夕快乐！”
-link: https://pythonczy.pythonanywhere.com/
-——————————————-</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-03-30T22:33:31+08:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">czy的编程小屋</title><subtitle>欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。</subtitle><entry><title type="html">除夕猜灯谜小游戏</title><link href="http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html" rel="alternate" type="text/html" title="除夕猜灯谜小游戏" /><published>2024-09-29T00:00:00+08:00</published><updated>2024-09-29T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html"><![CDATA[<h2 id="除夕猜灯谜小游戏">除夕猜灯谜小游戏</h2>
 
-<p>年关将至，除夕快乐！</p>
+<p><strong>日期：</strong> September 29, 2024
+<strong>作者：</strong> CZY
+<strong>描述：</strong> 年关将至，除夕快乐！</p>
 
-<hr />]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[layout: post title: “除夕猜灯谜小游戏” date: 2024-09-29 author: CZY categories: [游戏开发] tags: [Python, 网页游戏] description: “年关将至，除夕快乐！” link: https://pythonczy.pythonanywhere.com/ ——————————————-]]></summary></entry><entry><title type="html">企业编码生成系统</title><link href="http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html" rel="alternate" type="text/html" title="企业编码生成系统" /><published>2024-09-20T00:00:00+08:00</published><updated>2024-09-20T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html"><![CDATA[<p>layout: post
-title: 企业编码生成系统
-categories: [工具开发]
-tags: [Python, 二维码, 防伪系统]
-github: https://gitee.com/CZY321789/enterprise-coding-system
-image: /assets/images/小夏.jpg
-——————————</p>
+<p><strong>附加信息：</strong>
+<a href="https://pythonczy.pythonanywhere.com/">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">企业编码生成系统</title><link href="http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html" rel="alternate" type="text/html" title="企业编码生成系统" /><published>2024-09-20T00:00:00+08:00</published><updated>2024-09-20T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html"><![CDATA[<h2 id="企业编码生成系统">企业编码生成系统</h2>
 
-<h2 id="项目特点">项目特点</h2>
+<p><strong>日期：</strong> September 20, 2024
+<strong>作者：</strong> CZY</p>
+
+<h3 id="项目简介">项目简介</h3>
+
+<p>本项目基于 <code class="language-plaintext highlighter-rouge">qrcode</code> 与 <code class="language-plaintext highlighter-rouge">pystrich</code> 库开发，旨在提供高效、智能的企业编码生成解决方案。系统支持多种编码格式的生成，并结合数据分析功能，提升防伪管理的智能化水平。</p>
+
+<h3 id="主要功能">主要功能</h3>
 
 <ul>
-  <li>采用qrcode与pystrich库开发</li>
-  <li>支持6位/9位/25位等多种编码格式</li>
-  <li>响应时间&lt;200ms</li>
+  <li><strong>防伪编码生成</strong>
+    <ul>
+      <li>生成 6 位数字防伪编码</li>
+      <li>生成 9 位系列产品防伪编码</li>
+      <li>生成 25 位混合产品序列号</li>
+      <li>生成含数据分析功能的防伪编码</li>
+      <li>智能批量生成带数据分析功能的防伪码</li>
+      <li>后续补加生成防伪码</li>
+    </ul>
+  </li>
+  <li><strong>条形码与二维码生成</strong>
+    <ul>
+      <li>批量生成 EAN-13 条形码</li>
+      <li>批量生成二维码</li>
+      <li>企业粉丝防伪码抽奖</li>
+    </ul>
+  </li>
+  <li><strong>系统性能</strong>
+    <ul>
+      <li>响应时间均控制在 200 毫秒以内，确保高效运行</li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="技术栈">技术栈</h2>
+<h3 id="附加信息">附加信息</h3>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">qrcode</span>
-<span class="kn">from</span> <span class="nn">pystrich.ean13</span> <span class="kn">import</span> <span class="n">EAN13Encoder</span>
+<p>本系统已开源，支持防伪码、条形码、二维码等多种编码格式的批量生成，具有强大的数据分析功能及灵活的后续补充机制。同时，系统支持批量操作，例如为不同系列产品生成不同类型的防伪码和条形码，大幅提高编码管理的效率和灵活性。</p>
 
+<p><a href="https://gitee.com/CZY321789/enterprise-coding-system">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Pdf引用解析工具</title><link href="http://localhost:4000/Portfolio/2024/08/20/pdf%E5%BC%95%E7%94%A8%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7.html" rel="alternate" type="text/html" title="Pdf引用解析工具" /><published>2024-08-20T00:00:00+08:00</published><updated>2024-08-20T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/08/20/pdf%E5%BC%95%E7%94%A8%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/08/20/pdf%E5%BC%95%E7%94%A8%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7.html"><![CDATA[<h1 id="pdf-引用解析工具">PDF 引用解析工具</h1>
 
-<span class="o">---</span>
-</code></pre></div></div>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[layout: post title: 企业编码生成系统 categories: [工具开发] tags: [Python, 二维码, 防伪系统] github: https://gitee.com/CZY321789/enterprise-coding-system image: /assets/images/小夏.jpg ——————————]]></summary></entry><entry><title type="html">猫狗图像分类器</title><link href="http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html" rel="alternate" type="text/html" title="猫狗图像分类器" /><published>2024-01-14T00:00:00+08:00</published><updated>2024-01-14T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: post
-title: 猫狗图像分类器
-tags: [机器学习, Tensorflow]
-colab: https://colab.research.google.com/drive/1nZbTmnB0_ScXcJxFHltz8w4o61YpxPpv
----
+<p><strong>日期</strong>: August 20, 2024
+<strong>作者</strong>: CZY</p>
 
-准确率63%的CNN分类模型，基于TensorFlow 2.0实现
+<h2 id="描述">描述</h2>
 
-![网络结构](/assets/images/model-arch.png)
+<p>该工具使用 <code class="language-plaintext highlighter-rouge">pdfminer</code> 和 <code class="language-plaintext highlighter-rouge">re</code> 库实现对 PDF 文档的解析与数据提取，支持将解析结果保存为 TXT 和 CSV 格式。用户可以选择解析单个 PDF 文档或整个文件夹中的多个文档，适用于批量处理大量文献或研究资料。</p>
 
-[在Colab运行]()
-</code></pre></div></div>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[``` layout: post title: 猫狗图像分类器 tags: [机器学习, Tensorflow] colab: https://colab.research.google.com/drive/1nZbTmnB0_ScXcJxFHltz8w4o61YpxPpv —]]></summary></entry></feed>
+<h2 id="功能特点">功能特点</h2>
+
+<ul>
+  <li><strong>文本提取</strong>: 提取 PDF 文档中的所有文本内容，方便后续分析。</li>
+  <li><strong>引用信息提取</strong>: 专门设计用于提取文献中的引用信息，非常适合学术研究。</li>
+  <li><strong>批量处理</strong>: 支持单个文件或整个文件夹中的 PDF 文档批量解析，提升效率。</li>
+  <li><strong>结果导出</strong>: 支持将解析结果保存为 TXT 和 CSV 格式，方便存储与数据分析。</li>
+</ul>
+
+<h2 id="附加信息">附加信息</h2>
+
+<p>该工具通过 <code class="language-plaintext highlighter-rouge">tkinter</code> 打包为 <code class="language-plaintext highlighter-rouge">.exe</code> 文件，无需安装即可直接使用。用户只需双击执行文件，即可快速解析 PDF 文档。无论是文献管理，还是数据分析，均能大大提高工作效率。</p>
+
+<p><a href="#">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[PDF 引用解析工具]]></summary></entry><entry><title type="html">基于scrapy Redis的分布式小说爬取工具</title><link href="http://localhost:4000/Portfolio/2024/08/14/%E5%9F%BA%E4%BA%8Escrapy-redis%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E5%B0%8F%E8%AF%B4%E7%88%AC%E5%8F%96%E5%B7%A5%E5%85%B7.html" rel="alternate" type="text/html" title="基于scrapy Redis的分布式小说爬取工具" /><published>2024-08-14T00:00:00+08:00</published><updated>2024-08-14T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/08/14/%E5%9F%BA%E4%BA%8Escrapy-redis%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E5%B0%8F%E8%AF%B4%E7%88%AC%E5%8F%96%E5%B7%A5%E5%85%B7</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/08/14/%E5%9F%BA%E4%BA%8Escrapy-redis%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E5%B0%8F%E8%AF%B4%E7%88%AC%E5%8F%96%E5%B7%A5%E5%85%B7.html"><![CDATA[<h1 id="基于-scrapy-redis-的分布式小说爬取工具">基于 Scrapy-Redis 的分布式小说爬取工具</h1>
+
+<p><strong>日期</strong>: August 14, 2024
+<strong>作者</strong>: CZY</p>
+
+<h2 id="描述">描述</h2>
+
+<p>该项目构建了一个高效的分布式爬虫系统，专为爬取并存储小说数据而设计。通过使用 Scrapy-Redis 框架，系统可以在多个节点上并行运行，大大提高了爬取效率。此工具适用于需要大规模抓取的应用，如小说网站数据采集。</p>
+
+<h2 id="功能特点">功能特点</h2>
+
+<ul>
+  <li><strong>分布式架构</strong>: 采用 Scrapy-Redis 框架，使得爬虫任务能够分布到多个节点，进行并行处理，显著提高爬取效率。</li>
+  <li><strong>任务去重</strong>: 使用 Redis 作为任务队列，确保每个任务只被处理一次，避免重复爬取。</li>
+  <li><strong>数据存储</strong>: Redis 不仅作为任务队列，还用于存储抓取的小说数据，确保高效的数据存取。</li>
+  <li><strong>灵活性与扩展性</strong>: 系统易于扩展，可根据需求增加更多爬取节点。</li>
+</ul>
+
+<h2 id="附加信息">附加信息</h2>
+
+<p>该分布式爬虫系统确保了任务的去重和分发，极大地提升了爬取速度和效率，适用于需要爬取大量数据的场景。系统不仅限于小说网站，还可根据需要进行扩展，支持其他类型的数据抓取。</p>
+
+<p><a href="#">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于 Scrapy-Redis 的分布式小说爬取工具]]></summary></entry><entry><title type="html">基于knn的图书推荐引擎</title><link href="http://localhost:4000/Portfolio/2024/01/29/%E5%9F%BA%E4%BA%8EKNN%E7%9A%84%E5%9B%BE%E4%B9%A6%E6%8E%A8%E8%8D%90%E5%BC%95%E6%93%8E.html" rel="alternate" type="text/html" title="基于knn的图书推荐引擎" /><published>2024-01-29T00:00:00+08:00</published><updated>2024-01-29T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/29/%E5%9F%BA%E4%BA%8EKNN%E7%9A%84%E5%9B%BE%E4%B9%A6%E6%8E%A8%E8%8D%90%E5%BC%95%E6%93%8E</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/29/%E5%9F%BA%E4%BA%8EKNN%E7%9A%84%E5%9B%BE%E4%B9%A6%E6%8E%A8%E8%8D%90%E5%BC%95%E6%93%8E.html"><![CDATA[<h1 id="基于-knn-的图书推荐引擎">基于 KNN 的图书推荐引擎</h1>
+
+<p><strong>日期</strong>: January 29, 2024
+<strong>作者</strong>: CZY</p>
+
+<h2 id="描述">描述</h2>
+
+<p>本项目实现了一个基于 KNN（K-Nearest Neighbors）算法的图书推荐引擎。该引擎利用 90,000 名用户对 270,000 册书籍的 110 万份评分（评分范围为 1 至 10），根据用户的评分历史进行个性化推荐。</p>
+
+<h2 id="功能特点">功能特点</h2>
+
+<ul>
+  <li><strong>用户评分数据</strong>: 使用了来自 90,000 名用户的评分数据，涵盖了 270,000 册书籍。评分数据包括从 1 到 10 的评分，确保了推荐结果的多样性与准确性。</li>
+  <li><strong>KNN 推荐算法</strong>: 基于 KNN 算法，推荐引擎根据用户的评分历史找到相似的用户或书籍，提供个性化推荐。</li>
+  <li><strong>可扩展性</strong>: 该推荐引擎支持大规模数据集，可以扩展以处理更多的用户和书籍。</li>
+  <li><strong>基于 TensorFlow 实现</strong>: 该项目使用 TensorFlow 完成，能够轻松进行算法优化和模型调整。</li>
+</ul>
+
+<h2 id="附加信息">附加信息</h2>
+
+<p>该图书推荐系统是基于 KNN 算法开发的，适用于图书、电影等领域的个性化推荐任务。用户可以通过该系统根据自己历史评分获得类似用户的推荐，提升阅读体验。</p>
+
+<p><a href="https://colab.research.google.com/drive/1OUUwV2HfDPnvJwJn_KxMUmgrPLIExqg0#scrollTo=S1YH34VbZHBi">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于 KNN 的图书推荐引擎]]></summary></entry><entry><title type="html">猫狗图像分类器</title><link href="http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html" rel="alternate" type="text/html" title="猫狗图像分类器" /><published>2024-01-14T00:00:00+08:00</published><updated>2024-01-14T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html"><![CDATA[<h1 id="猫狗图像分类器">猫狗图像分类器</h1>
+
+<p><strong>日期</strong>: January 14, 2024
+<strong>作者</strong>: CZY</p>
+
+<h2 id="描述">描述</h2>
+
+<p>本项目使用 TensorFlow 2.0 和 Keras 创建了一个卷积神经网络（CNN），用于对狗和猫的图像进行分类。该网络能够在至少 63% 的时间内正确分类猫和狗的图像。</p>
+
+<h2 id="功能特点">功能特点</h2>
+
+<ul>
+  <li><strong>卷积神经网络</strong>: 采用 CNN 架构进行图像分类，通过提取图像特征来判断是猫还是狗。</li>
+  <li><strong>高效分类</strong>: 网络可以在 63% 以上的时间内正确分类输入的猫狗图像，适合初步的图像分类任务。</li>
+  <li><strong>使用 TensorFlow 2.0 和 Keras</strong>: 该项目基于 TensorFlow 2.0 和 Keras 构建，便于开发者扩展与优化。</li>
+</ul>
+
+<h2 id="附加信息">附加信息</h2>
+
+<p>该项目是基于 TensorFlow 完成的，适用于需要进行猫狗图像分类的场景。可以通过修改网络结构或调整训练参数来进一步优化分类精度。</p>
+
+<p><a href="https://colab.research.google.com/drive/1nZbTmnB0_ScXcJxFHltz8w4o61YpxPpv">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[猫狗图像分类器]]></summary></entry><entry><title type="html">基于android的智能安防系统</title><link href="http://localhost:4000/Portfolio/2023/10/03/%E5%9F%BA%E4%BA%8EAndroid%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%89%E9%98%B2%E7%B3%BB%E7%BB%9F.html" rel="alternate" type="text/html" title="基于android的智能安防系统" /><published>2023-10-03T00:00:00+08:00</published><updated>2023-10-03T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2023/10/03/%E5%9F%BA%E4%BA%8EAndroid%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%89%E9%98%B2%E7%B3%BB%E7%BB%9F</id><content type="html" xml:base="http://localhost:4000/Portfolio/2023/10/03/%E5%9F%BA%E4%BA%8EAndroid%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%89%E9%98%B2%E7%B3%BB%E7%BB%9F.html"><![CDATA[<h1 id="基于-android-的智能安防系统">基于 Android 的智能安防系统</h1>
+
+<p><strong>日期</strong>: October 3, 2023
+<strong>作者</strong>: CZY</p>
+
+<h2 id="描述">描述</h2>
+
+<p>本项目是一个基于 Android 系统开发的智能安防应用程序，旨在帮助用户监控和保护家庭或办公场所的安全。通过该应用，用户可以实时查看视频监控、接收安全警报并管理多个安防设备，确保个人及家庭的安全。</p>
+
+<h2 id="功能特点">功能特点</h2>
+
+<ul>
+  <li><strong>实时视频监控</strong>: 支持通过 Android 设备查看实时视频，确保家庭或办公室的安全。</li>
+  <li><strong>安全警报系统</strong>: 系统可以检测到可疑活动并发送即时警报到用户的手机。</li>
+  <li><strong>多设备管理</strong>: 用户可以通过该应用管理多个安防设备，如摄像头、传感器等。</li>
+  <li><strong>基于 Android 系统</strong>: 完全基于 Android 平台开发，能够充分利用 Android 系统的优势，提供流畅的用户体验。</li>
+</ul>
+
+<h2 id="附加信息">附加信息</h2>
+
+<p>该智能安防系统可以用于家庭安全、办公室安全等多种场景。它不仅支持视频监控，还具备报警功能，能够实时响应安全威胁。用户可以通过简单的操作在 Android 设备上进行设备管理和监控，确保环境的安全。</p>
+
+<p><a href="https://colab.research.google.com/drive/1uo5XwMccgzYlyGIG-npVPJZ2w98lDhWq">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于 Android 的智能安防系统]]></summary></entry></feed>
