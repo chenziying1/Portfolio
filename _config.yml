@@ -28,7 +28,12 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes
+
+# 使用远程主题方式（兼容性更好）
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+# 禁用本地主题
+theme: null
 plugins:
   - jekyll-feed
 
