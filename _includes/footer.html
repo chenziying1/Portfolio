@@ -4,7 +4,7 @@
   <div class="wrapper">
     
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <!--<div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -17,17 +17,19 @@
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
+      </div>-->
+      <div class="footer-col footer-col-1">
+        <p>© 2025-{{- site.time | date: "%Y" -}} <a href="{{ "/" | relative_url }}">{{- site.title | escape -}}</a></p>
+        <p>Powered by CZY & <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
       </div>
 
       <div class="footer-col footer-col-2">
         {%- include social.html -%}
       </div>
-      
-      <div class="footer-info">
+
+      <div class="footer-col footer-col-3">
         <p>如需转载，请注明出处，并在文章末尾附上本站链接，谢谢！</p>
         <p>作者邮箱：1060324818@qq.com</p>
-      </div>
-      <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
       </div>
     </div>
