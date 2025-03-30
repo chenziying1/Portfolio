@@ -1,24 +1,122 @@
-.site-footer {
-    background: #f8f9fa;
-    padding: 20px 0;
+/* 全局设置 */
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    margin-top: 80px;  /* 因为 header 固定，预留上边距 */
+  }
+  
+  /* Header 样式 */
+  .site-header {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    text-decoration: none;
+  }
+  
+  /* 导航菜单 */
+  .site-nav {
+    position: relative;
+  }
+  
+  .nav-trigger {
+    display: none;
+  }
+  
+  .nav-trigger-label {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .trigger {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-nav .page-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .site-nav .page-link:hover {
+    color: #ffdd57;
+  }
+  
+  /* 响应式菜单设置 */
+  @media (max-width: 768px) {
+    .trigger {
+      display: none;
+      flex-direction: column;
+      background: rgba(0, 0, 0, 0.9);
+      position: absolute;
+      right: 0;
+      top: 60px;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .nav-trigger-label {
+      display: block;
+    }
+    .nav-trigger:checked ~ .trigger {
+      display: flex;
+    }
+    .site-nav .page-link {
+      margin: 10px 0;
+    }
+  }
+  
+  /* 页脚样式 */
+  .site-footer {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #fff;
+    padding: 30px 20px;
+    margin-top: 60px;
+  }
+  
+  .footer-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    border-top: 1px solid #eaeaea;
-    margin-top: 40px;
   }
   
   .footer-info p {
     margin: 5px 0;
-    font-size: 0.9em;
-    color: #555;
+    font-size: 0.9rem;
   }
   
   .footer-social {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   
   .footer-social h4 {
-    font-size: 1.1em;
     margin-bottom: 10px;
+    font-size: 1.1rem;
   }
   
   .social-media-list {
@@ -33,10 +131,15 @@
   }
   
   .social-media-list a {
+    color: #fff;
     text-decoration: none;
-    color: inherit;
     display: flex;
     align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-media-list a:hover {
+    transform: scale(1.1);
   }
   
   .social-media-list svg,
@@ -46,7 +149,5 @@
     margin-right: 5px;
   }
   
-  .social-media-list .username {
-    display: none; /* 若只需图标，可隐藏用户名 */
-  }
+  /* 其它元素如文章卡片、按钮等也可以仿照这种风格统一处理 */
   
