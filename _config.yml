@@ -22,7 +22,7 @@ title: czy的编程小屋
 email: 1060324818@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。
-baseurl: "https://github.com/chenziying1/Portfolio" # the subpath of your site, e.g. /blog
+baseurl: "Portfolio" # the subpath of your site, e.g. /blog
 url: "https://github.com/chenziying1/Portfolio" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
