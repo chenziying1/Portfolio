@@ -1,17 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-30T21:45:37+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">czy的编程小屋</title><subtitle>欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2025/03/30/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-03-30T21:40:40+08:00</published><updated>2025-03-30T21:40:40+08:00</updated><id>http://localhost:4000/jekyll/update/2025/03/30/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/03/30/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-03-30T22:19:21+08:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">czy的编程小屋</title><subtitle>欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。</subtitle><entry><title type="html">除夕猜灯谜小游戏</title><link href="http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html" rel="alternate" type="text/html" title="除夕猜灯谜小游戏" /><published>2024-09-29T00:00:00+08:00</published><updated>2024-09-29T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html"><![CDATA[<p>layout: post
+title: “除夕猜灯谜小游戏”
+date: 2024-09-29
+author: CZY
+categories: [游戏开发]
+tags: [Python, 网页游戏]
+description: “年关将至，除夕快乐！”
+link: https://pythonczy.pythonanywhere.com/
+——————————————-</p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<p>年关将至，除夕快乐！</p>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<hr />]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[layout: post title: “除夕猜灯谜小游戏” date: 2024-09-29 author: CZY categories: [游戏开发] tags: [Python, 网页游戏] description: “年关将至，除夕快乐！” link: https://pythonczy.pythonanywhere.com/ ——————————————-]]></summary></entry><entry><title type="html">企业编码生成系统</title><link href="http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html" rel="alternate" type="text/html" title="企业编码生成系统" /><published>2024-09-20T00:00:00+08:00</published><updated>2024-09-20T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html"><![CDATA[<p>layout: post
+title: 企业编码生成系统
+categories: [工具开发]
+tags: [Python, 二维码, 防伪系统]
+github: https://gitee.com/CZY321789/enterprise-coding-system
+image: /assets/images/小夏.jpg
+——————————</p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<h2 id="项目特点">项目特点</h2>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<ul>
+  <li>采用qrcode与pystrich库开发</li>
+  <li>支持6位/9位/25位等多种编码格式</li>
+  <li>响应时间&lt;200ms</li>
+</ul>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<h2 id="技术栈">技术栈</h2>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">qrcode</span>
+<span class="kn">from</span> <span class="nn">pystrich.ean13</span> <span class="kn">import</span> <span class="n">EAN13Encoder</span>
+
+
+<span class="o">---</span>
+</code></pre></div></div>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[layout: post title: 企业编码生成系统 categories: [工具开发] tags: [Python, 二维码, 防伪系统] github: https://gitee.com/CZY321789/enterprise-coding-system image: /assets/images/小夏.jpg ——————————]]></summary></entry><entry><title type="html">猫狗图像分类器</title><link href="http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html" rel="alternate" type="text/html" title="猫狗图像分类器" /><published>2024-01-14T00:00:00+08:00</published><updated>2024-01-14T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post
+title: 猫狗图像分类器
+tags: [机器学习, Tensorflow]
+colab: https://colab.research.google.com/drive/1nZbTmnB0_ScXcJxFHltz8w4o61YpxPpv
+---
+
+准确率63%的CNN分类模型，基于TensorFlow 2.0实现
+
+![网络结构](/assets/images/model-arch.png)
+
+[在Colab运行]()
+</code></pre></div></div>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[``` layout: post title: 猫狗图像分类器 tags: [机器学习, Tensorflow] colab: https://colab.research.google.com/drive/1nZbTmnB0_ScXcJxFHltz8w4o61YpxPpv —]]></summary></entry></feed>
