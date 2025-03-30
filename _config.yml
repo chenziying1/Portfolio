@@ -33,20 +33,26 @@ plugins:
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:year/:title/
 
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "posts"
     values:
-      layout: "project"
+      layout: "post"
+      author: "CZY"
+      show_date: true
 
 navigation:
   - name: "Python Projects"
     url: "/python-projects/"
   - name: "Django Projects"
     url: "/django-projects/"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 # Exclude from processing.
 # The following items will not be processed, by default.

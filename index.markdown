@@ -4,3 +4,17 @@
 
 layout: home
 ---
+layout: home
+title: "My Portfolio"
+---------------------
+
+## Featured Projects
+
+{% for post in site.posts limit:5 %}
+
+- [{{ post.title }}]({{ post.url }}) - {{ post.description }}
+  {% endfor %}
+
+[View all projects](/projects/)
+
+---
