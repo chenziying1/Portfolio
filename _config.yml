@@ -21,22 +21,14 @@
 title: czy的编程小屋
 email: 1060324818@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
-  欢迎来到czy的编程小屋，这里是一个记录编程学习的地方。
+  欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/chenziying1/Portfolio" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
-
-# 使用远程主题方式（兼容性更好）
-remote_theme: mmistakes/minimal-mistakes@4.24.0
-
-# 禁用本地主题
-theme: null
-# 禁用所有 GitHub Pages 插件
-plugins: []
-markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

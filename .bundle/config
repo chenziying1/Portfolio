@@ -1,3 +1,0 @@
----
-BUNDLE_WITHOUT: "development:doc:"
-BUNDLE_MIRROR__HTTPS://RUBYGEMS__ORG/: "https://gems.ruby-china.com"
