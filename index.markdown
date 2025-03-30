@@ -2,7 +2,7 @@
 ---
 layout: default
 title: "首页"
----
+
 
 <div class="cards-container">
   {% for post in paginator.posts %}
@@ -29,6 +29,6 @@ title: "首页"
     <a class="pagination-next" href="{{ paginator.next_page_path | relative_url }}">下一页 &raquo;</a>
   {% endif %}
 </div>
-
+---
 
 ---
