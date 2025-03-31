@@ -2,33 +2,64 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<div class="home-container">
+  
+  <div class="main">
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
 
-  {{ content }}
+    {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+    {%- if site.posts.size > 0 -%}
+      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {%- endif -%}
+  </div>  
+  
+  <!-- 右侧边栏 -->
+  <aside class="sidebar right-sidebar">
+    <div class="sidebar-widget author-widget">
+      <div class="author-avatar">
+        <img src="{{ "/assets/images/avatar.jpg" | relative_url }}" alt="作者头像">
+      </div>
+      <h3 class="widget-title">👋 关于作者</h3>
+      <div class="author-bio">
+        <p>你好！我是czy，一名热爱编程的开发者。这个博客记录我的学习笔记和技术分享，希望能对你有所帮助。</p>
+      </div>
+    </div>
 
+    <div class="sidebar-widget">
+      <h3 class="widget-title">📱 联系我</h3>
+      <div class="social-links">
+        <a href="https://github.com/chenziying1" class="social-link github" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://gitee.com/CZY321789" class="social-link gitee" target="_blank">
+          <i class="fab fa-git-alt"></i> Gitee
+        </a>
+        <a href="mailto:1060324818@qq.com" class="social-link email">
+          <i class="fas fa-envelope"></i> 邮箱
+        </a>
+      </div>
+    </div>
+    
+  </aside>
 </div>
