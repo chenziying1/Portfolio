@@ -1,11 +1,162 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-03T21:09:13+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">czy的编程小屋</title><subtitle>欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。</subtitle><entry><title type="html">除夕猜灯谜小游戏</title><link href="http://localhost:4000/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html" rel="alternate" type="text/html" title="除夕猜灯谜小游戏" /><published>2024-09-29T00:00:00+08:00</published><updated>2024-09-29T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F</id><content type="html" xml:base="http://localhost:4000/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html"><![CDATA[<h2 id="除夕猜灯谜小游戏">除夕猜灯谜小游戏</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-04-04T20:17:02+08:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">czy的编程小屋</title><subtitle>欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。</subtitle><entry><title type="html">红黑树排行榜python游戏中心</title><link href="http://localhost:4000/Portfolio/2025/04/04/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8E%92%E8%A1%8C%E6%A6%9CPython%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BF%83.html" rel="alternate" type="text/html" title="红黑树排行榜python游戏中心" /><published>2025-04-04T00:00:00+08:00</published><updated>2025-04-04T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2025/04/04/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8E%92%E8%A1%8C%E6%A6%9CPython%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BF%83</id><content type="html" xml:base="http://localhost:4000/Portfolio/2025/04/04/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8E%92%E8%A1%8C%E6%A6%9CPython%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BF%83.html"><![CDATA[<h2 id="欢迎来到python游戏中心">欢迎来到Python游戏中心！</h2>
+
+<p>Python游戏中心是一个集合了多种经典小游戏的在线平台，无需下载安装，打开浏览器即可畅玩所有游戏！</p>
+
+<p><strong>平台地址</strong> ：<a href="https://pythonczy.pythonanywhere.com/">https://pythonczy.pythonanywhere.com</a></p>
+
+<h2 id="平台特色">平台特色</h2>
+
+<p>✅ 12款精心设计的经典小游戏
+✅ 实时更新的游戏排行榜
+✅ 简洁清爽的界面设计
+✅ 无需注册，立即开玩
+✅ 完全免费，无广告干扰</p>
+
+<h2 id="游戏列表">游戏列表</h2>
+
+<ol>
+  <li><strong>猜数字</strong> - 考验你的数字直觉</li>
+  <li><strong>井字棋</strong> - 经典三连棋游戏</li>
+  <li><strong>记忆配对</strong> - 挑战你的记忆力</li>
+  <li><strong>猜单词</strong> - 英语学习好帮手</li>
+  <li><strong>颜色记忆</strong> - 视觉记忆大考验</li>
+  <li><strong>反应测试</strong> - 测量你的反应速度</li>
+  <li><strong>数字迷宫</strong> - 数字逻辑游戏</li>
+  <li><strong>字谜游戏</strong> - 中文文字游戏</li>
+  <li><strong>贪吃蛇</strong> - 经典怀旧游戏</li>
+  <li><strong>打地鼠</strong> - 手速大挑战</li>
+  <li><strong>跳跃方块</strong> - 平台跳跃游戏</li>
+  <li><strong>迷宫逃脱</strong> - 寻路解谜游戏</li>
+</ol>
+
+<h2 id="快速开始">快速开始</h2>
+
+<h3 id="1-设置你的玩家名">1. 设置你的玩家名</h3>
+
+<p>在任意页面点击右上角的”设置玩家名”按钮，输入你喜欢的昵称。</p>
+
+<h3 id="2-开始游戏">2. 开始游戏</h3>
+
+<ol>
+  <li>访问游戏中心首页</li>
+  <li>点击你想玩的游戏</li>
+  <li>阅读游戏规则</li>
+  <li>开始挑战！</li>
+</ol>
+
+<h3 id="3-查看排行榜">3. 查看排行榜</h3>
+
+<p>每个游戏页面底部都会显示该游戏的实时排行榜，看看你在所有玩家中的排名吧！</p>
+
+<h2 id="游戏规则说明">游戏规则说明</h2>
+
+<h3 id="猜数字游戏">猜数字游戏</h3>
+
+<ul>
+  <li>系统会随机生成一个1-100的数字</li>
+  <li>你有10次机会猜中这个数字</li>
+  <li>每次猜测后系统会提示”大了”或”小了”</li>
+  <li>用时越短，得分越高</li>
+</ul>
+
+<h3 id="记忆配对游戏">记忆配对游戏</h3>
+
+<ul>
+  <li>16张卡片随机排列</li>
+  <li>每次可以翻开两张卡片</li>
+  <li>成功配对则得分</li>
+  <li>所有卡片配对完成游戏结束</li>
+</ul>
+
+<h3 id="反应速度测试">反应速度测试</h3>
+
+<ul>
+  <li>当屏幕变色时立即点击</li>
+  <li>系统会记录你的反应时间</li>
+  <li>共测试5次，取平均成绩</li>
+</ul>
+
+<h2 id="计分系统说明">计分系统说明</h2>
+
+<p>每个游戏采用不同的计分规则，主要考虑以下因素：</p>
+
+<ul>
+  <li><strong>完成时间</strong> - 速度越快分数越高</li>
+  <li><strong>尝试次数</strong> - 尝试次数越少分数越高</li>
+  <li><strong>准确率</strong> - 正确率越高分数越高</li>
+</ul>
+
+<p>你的最佳成绩会自动提交到排行榜！</p>
+
+<h2 id="常见问题">常见问题</h2>
+
+<h3 id="q-需要注册账号吗">Q: 需要注册账号吗？</h3>
+
+<p>A: 不需要！我们使用浏览器本地存储记录你的玩家名和游戏进度。</p>
+
+<h3 id="q-排行榜是如何排名的">Q: 排行榜是如何排名的？</h3>
+
+<p>A: 排行榜根据玩家在各游戏中的得分自动立即更新。</p>
+
+<h3 id="-红黑树排行榜系统--精准高效公平的竞技排名引擎">🎯 红黑树排行榜系统 —— 精准、高效、公平的竞技排名引擎</h3>
+
+<p>为了保证玩家排行榜的<strong>实时性</strong>和 <strong>高性能</strong> ，实现了一套 <strong>基于红黑树的数据结构排行榜系统</strong> 。这不仅提升了排名更新速度，也保障了在大量玩家参与时的公平与稳定。</p>
+
+<h4 id="-技术亮点">🔧 技术亮点</h4>
+
+<p>✅ <strong>红黑树（Red-Black Tree）自平衡结构</strong></p>
+
+<p>每次新分数插入后，红黑树会自动进行旋转和平衡，确保查询、插入、更新操作始终保持在 O(log n) 时间复杂度内。</p>
+
+<p>✅ <strong>支持动态更新</strong></p>
+
+<p>当玩家完成一局游戏后，系统会立刻将新的得分插入排行榜并调整排名顺序， <strong>不需整表排序</strong> ，效率远高于传统数组排序法。</p>
+
+<p>✅ <strong>最高分优先排名规则</strong></p>
+
+<p>排行榜按照每位玩家的<strong>历史最高分</strong>进行排名，确保每一位高手都能凭实力登顶。</p>
+
+<p>✅ <strong>本地缓存 + 后端同步</strong></p>
+
+<p>每位玩家的得分会优先保存在浏览器本地，同时也会定期同步到后端排行榜服务中，做到 <strong>离线可用，在线同步</strong> 。</p>
+
+<h4 id="-实时排行榜体验">📈 实时排行榜体验</h4>
+
+<ul>
+  <li>每个游戏页面底部实时展示该游戏当前排名前10的玩家</li>
+  <li>玩家只需刷新页面即可获取<strong>最新排行</strong></li>
+  <li>支持点击查看<strong>自己的历史最佳成绩</strong></li>
+</ul>
+
+<h4 id="-为什么选择红黑树">🧠 为什么选择红黑树？</h4>
+
+<p>红黑树是一种经过大量实战验证的 <strong>高效排序与检索数据结构</strong> ，被广泛应用于：</p>
+
+<ul>
+  <li>Java TreeMap</li>
+  <li>C++ STL 的 <code class="language-plaintext highlighter-rouge">std::map</code></li>
+  <li>Linux内核的调度器</li>
+</ul>
+
+<h2 id="小贴士">小贴士</h2>
+
+<p>💡 每天玩不同的游戏可以获得更全面的体验
+💡 设置一个独特的玩家名让你的朋友能在排行榜上找到你
+💡 多次挑战同一游戏可以提升你的排名</p>
+
+<p>现在就访问 <a href="https://pythonczy.pythonanywhere.com/">Python游戏中心</a> 开始你的游戏之旅吧！</p>
+
+<hr />
+
+<p><strong>最后更新</strong> ：2025年4月
+ <strong>平台版本</strong> ：v1.0.0</p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[欢迎来到Python游戏中心！]]></summary></entry><entry><title type="html">除夕猜灯谜小游戏</title><link href="http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html" rel="alternate" type="text/html" title="除夕猜灯谜小游戏" /><published>2024-09-29T00:00:00+08:00</published><updated>2024-09-29T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/09/29/%E9%99%A4%E5%A4%95%E7%8C%9C%E7%81%AF%E8%B0%9C%E5%B0%8F%E6%B8%B8%E6%88%8F.html"><![CDATA[<h2 id="除夕猜灯谜小游戏">除夕猜灯谜小游戏</h2>
 
 <p><strong>日期：</strong> September 29, 2024
 <strong>作者：</strong> CZY
 <strong>描述：</strong> 年关将至，除夕快乐！</p>
 
 <p><strong>附加信息：</strong>
-<a href="https://pythonczy.pythonanywhere.com/">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">企业编码生成系统</title><link href="http://localhost:4000/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html" rel="alternate" type="text/html" title="企业编码生成系统" /><published>2024-09-20T00:00:00+08:00</published><updated>2024-09-20T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F</id><content type="html" xml:base="http://localhost:4000/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html"><![CDATA[<h2 id="企业编码生成系统">企业编码生成系统</h2>
+<a href="https://pythonczy.pythonanywhere.com/">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">企业编码生成系统</title><link href="http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html" rel="alternate" type="text/html" title="企业编码生成系统" /><published>2024-09-20T00:00:00+08:00</published><updated>2024-09-20T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/09/20/%E4%BC%81%E4%B8%9A%E7%BC%96%E7%A0%81%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F.html"><![CDATA[<h2 id="企业编码生成系统">企业编码生成系统</h2>
 
 <p><strong>日期：</strong> September 20, 2024
 <strong>作者：</strong> CZY</p>
@@ -45,7 +196,7 @@
 
 <p>本系统已开源，支持防伪码、条形码、二维码等多种编码格式的批量生成，具有强大的数据分析功能及灵活的后续补充机制。同时，系统支持批量操作，例如为不同系列产品生成不同类型的防伪码和条形码，大幅提高编码管理的效率和灵活性。</p>
 
-<p><a href="https://gitee.com/CZY321789/enterprise-coding-system">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Pdf引用解析工具</title><link href="http://localhost:4000/2024/08/20/pdf%E5%BC%95%E7%94%A8%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7.html" rel="alternate" type="text/html" title="Pdf引用解析工具" /><published>2024-08-20T00:00:00+08:00</published><updated>2024-08-20T00:00:00+08:00</updated><id>http://localhost:4000/2024/08/20/pdf%E5%BC%95%E7%94%A8%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7</id><content type="html" xml:base="http://localhost:4000/2024/08/20/pdf%E5%BC%95%E7%94%A8%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7.html"><![CDATA[<h1 id="pdf-引用解析工具">PDF 引用解析工具</h1>
+<p><a href="https://gitee.com/CZY321789/enterprise-coding-system">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Pdf引用解析工具</title><link href="http://localhost:4000/Portfolio/2024/08/20/pdf%E5%BC%95%E7%94%A8%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7.html" rel="alternate" type="text/html" title="Pdf引用解析工具" /><published>2024-08-20T00:00:00+08:00</published><updated>2024-08-20T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/08/20/pdf%E5%BC%95%E7%94%A8%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/08/20/pdf%E5%BC%95%E7%94%A8%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7.html"><![CDATA[<h1 id="pdf-引用解析工具">PDF 引用解析工具</h1>
 
 <p><strong>日期</strong>: August 20, 2024
 <strong>作者</strong>: CZY</p>
@@ -67,7 +218,7 @@
 
 <p>该工具通过 <code class="language-plaintext highlighter-rouge">tkinter</code> 打包为 <code class="language-plaintext highlighter-rouge">.exe</code> 文件，无需安装即可直接使用。用户只需双击执行文件，即可快速解析 PDF 文档。无论是文献管理，还是数据分析，均能大大提高工作效率。</p>
 
-<p><a href="#">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[PDF 引用解析工具]]></summary></entry><entry><title type="html">基于scrapy Redis的分布式小说爬取工具</title><link href="http://localhost:4000/2024/08/14/%E5%9F%BA%E4%BA%8Escrapy-redis%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E5%B0%8F%E8%AF%B4%E7%88%AC%E5%8F%96%E5%B7%A5%E5%85%B7.html" rel="alternate" type="text/html" title="基于scrapy Redis的分布式小说爬取工具" /><published>2024-08-14T00:00:00+08:00</published><updated>2024-08-14T00:00:00+08:00</updated><id>http://localhost:4000/2024/08/14/%E5%9F%BA%E4%BA%8Escrapy-redis%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E5%B0%8F%E8%AF%B4%E7%88%AC%E5%8F%96%E5%B7%A5%E5%85%B7</id><content type="html" xml:base="http://localhost:4000/2024/08/14/%E5%9F%BA%E4%BA%8Escrapy-redis%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E5%B0%8F%E8%AF%B4%E7%88%AC%E5%8F%96%E5%B7%A5%E5%85%B7.html"><![CDATA[<h1 id="基于-scrapy-redis-的分布式小说爬取工具">基于 Scrapy-Redis 的分布式小说爬取工具</h1>
+<p><a href="#">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[PDF 引用解析工具]]></summary></entry><entry><title type="html">基于scrapy Redis的分布式小说爬取工具</title><link href="http://localhost:4000/Portfolio/2024/08/14/%E5%9F%BA%E4%BA%8Escrapy-redis%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E5%B0%8F%E8%AF%B4%E7%88%AC%E5%8F%96%E5%B7%A5%E5%85%B7.html" rel="alternate" type="text/html" title="基于scrapy Redis的分布式小说爬取工具" /><published>2024-08-14T00:00:00+08:00</published><updated>2024-08-14T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/08/14/%E5%9F%BA%E4%BA%8Escrapy-redis%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E5%B0%8F%E8%AF%B4%E7%88%AC%E5%8F%96%E5%B7%A5%E5%85%B7</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/08/14/%E5%9F%BA%E4%BA%8Escrapy-redis%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E5%B0%8F%E8%AF%B4%E7%88%AC%E5%8F%96%E5%B7%A5%E5%85%B7.html"><![CDATA[<h1 id="基于-scrapy-redis-的分布式小说爬取工具">基于 Scrapy-Redis 的分布式小说爬取工具</h1>
 
 <p><strong>日期</strong>: August 14, 2024
 <strong>作者</strong>: CZY</p>
@@ -89,7 +240,7 @@
 
 <p>该分布式爬虫系统确保了任务的去重和分发，极大地提升了爬取速度和效率，适用于需要爬取大量数据的场景。系统不仅限于小说网站，还可根据需要进行扩展，支持其他类型的数据抓取。</p>
 
-<p><a href="#">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于 Scrapy-Redis 的分布式小说爬取工具]]></summary></entry><entry><title type="html">基于knn的图书推荐引擎</title><link href="http://localhost:4000/2024/01/29/%E5%9F%BA%E4%BA%8EKNN%E7%9A%84%E5%9B%BE%E4%B9%A6%E6%8E%A8%E8%8D%90%E5%BC%95%E6%93%8E.html" rel="alternate" type="text/html" title="基于knn的图书推荐引擎" /><published>2024-01-29T00:00:00+08:00</published><updated>2024-01-29T00:00:00+08:00</updated><id>http://localhost:4000/2024/01/29/%E5%9F%BA%E4%BA%8EKNN%E7%9A%84%E5%9B%BE%E4%B9%A6%E6%8E%A8%E8%8D%90%E5%BC%95%E6%93%8E</id><content type="html" xml:base="http://localhost:4000/2024/01/29/%E5%9F%BA%E4%BA%8EKNN%E7%9A%84%E5%9B%BE%E4%B9%A6%E6%8E%A8%E8%8D%90%E5%BC%95%E6%93%8E.html"><![CDATA[<h1 id="基于-knn-的图书推荐引擎">基于 KNN 的图书推荐引擎</h1>
+<p><a href="#">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于 Scrapy-Redis 的分布式小说爬取工具]]></summary></entry><entry><title type="html">基于knn的图书推荐引擎</title><link href="http://localhost:4000/Portfolio/2024/01/29/%E5%9F%BA%E4%BA%8EKNN%E7%9A%84%E5%9B%BE%E4%B9%A6%E6%8E%A8%E8%8D%90%E5%BC%95%E6%93%8E.html" rel="alternate" type="text/html" title="基于knn的图书推荐引擎" /><published>2024-01-29T00:00:00+08:00</published><updated>2024-01-29T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/29/%E5%9F%BA%E4%BA%8EKNN%E7%9A%84%E5%9B%BE%E4%B9%A6%E6%8E%A8%E8%8D%90%E5%BC%95%E6%93%8E</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/29/%E5%9F%BA%E4%BA%8EKNN%E7%9A%84%E5%9B%BE%E4%B9%A6%E6%8E%A8%E8%8D%90%E5%BC%95%E6%93%8E.html"><![CDATA[<h1 id="基于-knn-的图书推荐引擎">基于 KNN 的图书推荐引擎</h1>
 
 <p><strong>日期</strong>: January 29, 2024
 <strong>作者</strong>: CZY</p>
@@ -111,7 +262,7 @@
 
 <p>该图书推荐系统是基于 KNN 算法开发的，适用于图书、电影等领域的个性化推荐任务。用户可以通过该系统根据自己历史评分获得类似用户的推荐，提升阅读体验。</p>
 
-<p><a href="https://colab.research.google.com/drive/1OUUwV2HfDPnvJwJn_KxMUmgrPLIExqg0#scrollTo=S1YH34VbZHBi">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于 KNN 的图书推荐引擎]]></summary></entry><entry><title type="html">基于django的小型web项目合集</title><link href="http://localhost:4000/2024/01/14/%E5%9F%BA%E4%BA%8EDjango%E7%9A%84%E5%B0%8F%E5%9E%8BWeb%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86.html" rel="alternate" type="text/html" title="基于django的小型web项目合集" /><published>2024-01-14T00:00:00+08:00</published><updated>2024-01-14T00:00:00+08:00</updated><id>http://localhost:4000/2024/01/14/%E5%9F%BA%E4%BA%8EDjango%E7%9A%84%E5%B0%8F%E5%9E%8BWeb%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86</id><content type="html" xml:base="http://localhost:4000/2024/01/14/%E5%9F%BA%E4%BA%8EDjango%E7%9A%84%E5%B0%8F%E5%9E%8BWeb%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86.html"><![CDATA[<h1 id="基于django的小型web项目合集">基于Django的小型Web项目合集</h1>
+<p><a href="https://colab.research.google.com/drive/1OUUwV2HfDPnvJwJn_KxMUmgrPLIExqg0#scrollTo=S1YH34VbZHBi">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于 KNN 的图书推荐引擎]]></summary></entry><entry><title type="html">基于django的小型web项目合集</title><link href="http://localhost:4000/Portfolio/2024/01/14/%E5%9F%BA%E4%BA%8EDjango%E7%9A%84%E5%B0%8F%E5%9E%8BWeb%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86.html" rel="alternate" type="text/html" title="基于django的小型web项目合集" /><published>2024-01-14T00:00:00+08:00</published><updated>2024-01-14T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/14/%E5%9F%BA%E4%BA%8EDjango%E7%9A%84%E5%B0%8F%E5%9E%8BWeb%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/14/%E5%9F%BA%E4%BA%8EDjango%E7%9A%84%E5%B0%8F%E5%9E%8BWeb%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86.html"><![CDATA[<h1 id="基于django的小型web项目合集">基于Django的小型Web项目合集</h1>
 
 <p><strong>日期</strong>: [填写日期]
 <strong>作者</strong>: CZY</p>
@@ -158,7 +309,7 @@
 <ul>
   <li><strong>描述</strong>: 通过Django框架实现的日程记录和管理系统。</li>
   <li><strong>特点</strong>: 支持添加、编辑、删除日程，提供日历视图。</li>
-</ul>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于Django的小型Web项目合集]]></summary></entry><entry><title type="html">猫狗图像分类器</title><link href="http://localhost:4000/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html" rel="alternate" type="text/html" title="猫狗图像分类器" /><published>2024-01-14T00:00:00+08:00</published><updated>2024-01-14T00:00:00+08:00</updated><id>http://localhost:4000/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8</id><content type="html" xml:base="http://localhost:4000/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html"><![CDATA[<h1 id="猫狗图像分类器">猫狗图像分类器</h1>
+</ul>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于Django的小型Web项目合集]]></summary></entry><entry><title type="html">猫狗图像分类器</title><link href="http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html" rel="alternate" type="text/html" title="猫狗图像分类器" /><published>2024-01-14T00:00:00+08:00</published><updated>2024-01-14T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/14/%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E5%99%A8.html"><![CDATA[<h1 id="猫狗图像分类器">猫狗图像分类器</h1>
 
 <p><strong>日期</strong>: January 14, 2024
 <strong>作者</strong>: CZY</p>
@@ -179,7 +330,7 @@
 
 <p>该项目是基于 TensorFlow 完成的，适用于需要进行猫狗图像分类的场景。可以通过修改网络结构或调整训练参数来进一步优化分类精度。</p>
 
-<p><a href="https://colab.research.google.com/drive/1nZbTmnB0_ScXcJxFHltz8w4o61YpxPpv">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[猫狗图像分类器]]></summary></entry><entry><title type="html">基于python的数据爬取项目合集</title><link href="http://localhost:4000/2024/01/14/%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86.html" rel="alternate" type="text/html" title="基于python的数据爬取项目合集" /><published>2024-01-14T00:00:00+08:00</published><updated>2024-01-14T00:00:00+08:00</updated><id>http://localhost:4000/2024/01/14/%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86</id><content type="html" xml:base="http://localhost:4000/2024/01/14/%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86.html"><![CDATA[<h1 id="基于python的数据爬取项目合集">基于Python的数据爬取项目合集</h1>
+<p><a href="https://colab.research.google.com/drive/1nZbTmnB0_ScXcJxFHltz8w4o61YpxPpv">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[猫狗图像分类器]]></summary></entry><entry><title type="html">基于python的数据爬取项目合集</title><link href="http://localhost:4000/Portfolio/2024/01/14/%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86.html" rel="alternate" type="text/html" title="基于python的数据爬取项目合集" /><published>2024-01-14T00:00:00+08:00</published><updated>2024-01-14T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/14/%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/14/%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96%E9%A1%B9%E7%9B%AE%E5%90%88%E9%9B%86.html"><![CDATA[<h1 id="基于python的数据爬取项目合集">基于Python的数据爬取项目合集</h1>
 
 <p><strong>日期</strong>: [填写日期]
 <strong>作者</strong>: CZY</p>
@@ -247,7 +398,7 @@
 <ul>
   <li><strong>描述</strong>: 自动抓取去哪儿网站上的火车票信息，包括票价、班次等。</li>
   <li><strong>特点</strong>: 支持多种筛选条件，提供实时的火车票信息。</li>
-</ul>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于Python的数据爬取项目合集]]></summary></entry><entry><title type="html">神经网络短信文本分类器</title><link href="http://localhost:4000/2024/01/10/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9F%AD%E4%BF%A1%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E5%99%A8.html" rel="alternate" type="text/html" title="神经网络短信文本分类器" /><published>2024-01-10T00:00:00+08:00</published><updated>2024-01-10T00:00:00+08:00</updated><id>http://localhost:4000/2024/01/10/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9F%AD%E4%BF%A1%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E5%99%A8</id><content type="html" xml:base="http://localhost:4000/2024/01/10/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9F%AD%E4%BF%A1%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E5%99%A8.html"><![CDATA[<h1 id="神经网络短信文本分类器">神经网络短信文本分类器</h1>
+</ul>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于Python的数据爬取项目合集]]></summary></entry><entry><title type="html">神经网络短信文本分类器</title><link href="http://localhost:4000/Portfolio/2024/01/10/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9F%AD%E4%BF%A1%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E5%99%A8.html" rel="alternate" type="text/html" title="神经网络短信文本分类器" /><published>2024-01-10T00:00:00+08:00</published><updated>2024-01-10T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/10/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9F%AD%E4%BF%A1%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E5%99%A8</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/10/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9F%AD%E4%BF%A1%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E5%99%A8.html"><![CDATA[<h1 id="神经网络短信文本分类器">神经网络短信文本分类器</h1>
 
 <p><strong>日期</strong>: January 10, 2024
 <strong>作者</strong>: CZY</p>
@@ -269,26 +420,4 @@
 
 <p>该短信分类器为广告信息过滤提供了一个有效的解决方案，能够识别并阻挡垃圾信息。它不仅适用于手机短信的分类，也可以扩展到其他文本分类任务，如社交媒体评论的垃圾信息检测。</p>
 
-<p><a href="https://colab.research.google.com/drive/1uo5XwMccgzYlyGIG-npVPJZ2w98lDhWq">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[神经网络短信文本分类器]]></summary></entry><entry><title type="html">基于android的智能安防系统</title><link href="http://localhost:4000/2023/10/03/%E5%9F%BA%E4%BA%8EAndroid%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%89%E9%98%B2%E7%B3%BB%E7%BB%9F.html" rel="alternate" type="text/html" title="基于android的智能安防系统" /><published>2023-10-03T00:00:00+08:00</published><updated>2023-10-03T00:00:00+08:00</updated><id>http://localhost:4000/2023/10/03/%E5%9F%BA%E4%BA%8EAndroid%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%89%E9%98%B2%E7%B3%BB%E7%BB%9F</id><content type="html" xml:base="http://localhost:4000/2023/10/03/%E5%9F%BA%E4%BA%8EAndroid%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%89%E9%98%B2%E7%B3%BB%E7%BB%9F.html"><![CDATA[<h1 id="基于-android-的智能安防系统">基于 Android 的智能安防系统</h1>
-
-<p><strong>日期</strong>: October 3, 2023
-<strong>作者</strong>: CZY</p>
-
-<h2 id="描述">描述</h2>
-
-<p>本项目是一个基于 Android 系统开发的智能安防应用程序，旨在帮助用户监控和保护家庭或办公场所的安全。通过该应用，用户可以实时查看视频监控、接收安全警报并管理多个安防设备，确保个人及家庭的安全。</p>
-
-<h2 id="功能特点">功能特点</h2>
-
-<ul>
-  <li><strong>实时视频监控</strong>: 支持通过 Android 设备查看实时视频，确保家庭或办公室的安全。</li>
-  <li><strong>安全警报系统</strong>: 系统可以检测到可疑活动并发送即时警报到用户的手机。</li>
-  <li><strong>多设备管理</strong>: 用户可以通过该应用管理多个安防设备，如摄像头、传感器等。</li>
-  <li><strong>基于 Android 系统</strong>: 完全基于 Android 平台开发，能够充分利用 Android 系统的优势，提供流畅的用户体验。</li>
-</ul>
-
-<h2 id="附加信息">附加信息</h2>
-
-<p>该智能安防系统可以用于家庭安全、办公室安全等多种场景。它不仅支持视频监控，还具备报警功能，能够实时响应安全威胁。用户可以通过简单的操作在 Android 设备上进行设备管理和监控，确保环境的安全。</p>
-
-<p><a href="https://colab.research.google.com/drive/1uo5XwMccgzYlyGIG-npVPJZ2w98lDhWq">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于 Android 的智能安防系统]]></summary></entry></feed>
+<p><a href="https://colab.research.google.com/drive/1uo5XwMccgzYlyGIG-npVPJZ2w98lDhWq">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[神经网络短信文本分类器]]></summary></entry></feed>
