@@ -1,4 +1,141 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-04-04T20:17:02+08:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">czy的编程小屋</title><subtitle>欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。</subtitle><entry><title type="html">红黑树排行榜python游戏中心</title><link href="http://localhost:4000/Portfolio/2025/04/04/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8E%92%E8%A1%8C%E6%A6%9CPython%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BF%83.html" rel="alternate" type="text/html" title="红黑树排行榜python游戏中心" /><published>2025-04-04T00:00:00+08:00</published><updated>2025-04-04T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2025/04/04/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8E%92%E8%A1%8C%E6%A6%9CPython%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BF%83</id><content type="html" xml:base="http://localhost:4000/Portfolio/2025/04/04/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8E%92%E8%A1%8C%E6%A6%9CPython%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BF%83.html"><![CDATA[<h2 id="欢迎来到python游戏中心">欢迎来到Python游戏中心！</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-04-06T21:36:18+08:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">czy的编程小屋</title><subtitle>欢迎来到czy的编程小屋，这里是一个程序员的小窝，记录了一些编程的心得和技术分享。</subtitle><entry><title type="html">Deepseek R1游戏指令解析微调项目</title><link href="http://localhost:4000/Portfolio/2025/04/05/DeepSeek-R1%E6%B8%B8%E6%88%8F%E6%8C%87%E4%BB%A4%E8%A7%A3%E6%9E%90%E5%BE%AE%E8%B0%83%E9%A1%B9%E7%9B%AE.html" rel="alternate" type="text/html" title="Deepseek R1游戏指令解析微调项目" /><published>2025-04-05T00:00:00+08:00</published><updated>2025-04-05T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2025/04/05/DeepSeek-R1%E6%B8%B8%E6%88%8F%E6%8C%87%E4%BB%A4%E8%A7%A3%E6%9E%90%E5%BE%AE%E8%B0%83%E9%A1%B9%E7%9B%AE</id><content type="html" xml:base="http://localhost:4000/Portfolio/2025/04/05/DeepSeek-R1%E6%B8%B8%E6%88%8F%E6%8C%87%E4%BB%A4%E8%A7%A3%E6%9E%90%E5%BE%AE%E8%B0%83%E9%A1%B9%E7%9B%AE.html"><![CDATA[<h1 id="deepseek-r1-游戏指令解析微调项目">DeepSeek-R1 游戏指令解析微调项目</h1>
+
+<p>基于 <strong>DeepSeek-R1-Distill-1B</strong> 模型微调实现的自然语言游戏指令解析工具，可将如 <code class="language-plaintext highlighter-rouge">"封禁账号12345 2小时"</code>类指令自动转换为结构化JSON操作。</p>
+
+<h2 id="-功能特性">🚀 功能特性</h2>
+
+<ul>
+  <li><strong>多指令支持</strong>：封禁/解封/禁言/踢出/查询等游戏管理操作</li>
+  <li><strong>低资源适配</strong>：4-bit量化 + LoRA微调，16GB内存即可运行</li>
+  <li><strong>多平台部署</strong>：支持Kaggle/Colab训练，CPU/GPU推理</li>
+  <li><strong>即插即用</strong>：提供适配器权重，无需重新训练基础模型</li>
+</ul>
+
+<h2 id="-快速开始">📦 快速开始</h2>
+
+<h3 id="环境安装">环境安装</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>torch transformers peft unsloth accelerate
+</code></pre></div></div>
+
+<h3 id="模型加载">模型加载</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from transformers import AutoModelForCausalLM, AutoTokenizer
+from peft import PeftModel
+
+base_model = "unsloth/DeepSeek-R1-Distill-1B"
+adapter_path = "game_assistant_lora"
+
+model = AutoModelForCausalLM.from_pretrained(
+    base_model,
+    device_map="auto",
+    load_in_4bit=True
+)
+model = PeftModel.from_pretrained(model, adapter_path)
+tokenizer = AutoTokenizer.from_pretrained(base_model)
+</code></pre></div></div>
+
+<h3 id="指令解析">指令解析</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def parse_command(command):
+    prompt = f"指令: {command}\n响应: "
+    inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
+    outputs = model.generate(**inputs, max_new_tokens=50)
+    return tokenizer.decode(outputs[0], skip_special_tokens=True).split("响应:")[-1]
+
+print(parse_command("封禁账号12345 2小时"))
+# 输出: {"action": "ban", "user_id": "12345", "duration": "2h"}
+</code></pre></div></div>
+
+<h2 id="️-训练配置">🛠️ 训练配置</h2>
+
+<h3 id="kaggle环境">Kaggle环境</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>!pip install unsloth
+from unsloth import FastLanguageModel
+
+model, _ = FastLanguageModel.from_pretrained(
+    "unsloth/DeepSeek-R1-Distill-1B",
+    load_in_4bit=True,
+    max_seq_length=1024,
+)
+</code></pre></div></div>
+
+<h3 id="lora参数">LoRA参数</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>参数</th>
+      <th>值</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>r (秩)</td>
+      <td>8</td>
+      <td>低秩矩阵维度</td>
+    </tr>
+    <tr>
+      <td>target_modules</td>
+      <td>q_proj, v_proj</td>
+      <td>适配的注意力层</td>
+    </tr>
+    <tr>
+      <td>lora_alpha</td>
+      <td>16</td>
+      <td>缩放系数</td>
+    </tr>
+    <tr>
+      <td>batch_size</td>
+      <td>2</td>
+      <td>T4 GPU适配值</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="-性能指标">📊 性能指标</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>环境</th>
+      <th>速度</th>
+      <th>显存占用</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kaggle T4</td>
+      <td>12 samples/sec</td>
+      <td>10GB</td>
+    </tr>
+    <tr>
+      <td>CPU (i7-12700K)</td>
+      <td>1.2 tokens/sec</td>
+      <td>8GB</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="-文件结构">📂 文件结构</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>project/
+├── adapters/
+│   ├── adapter_config.json
+│   └── adapter_model.bin  # LoRA权重 (仅8MB)
+├── train.ipynb            # Kaggle训练 notebook
+└── inference.py           # 部署脚本
+</code></pre></div></div>
+
+<h2 id="-最佳实践">🌟 最佳实践</h2>
+
+<ol>
+  <li><strong>数据增强</strong> ：添加更多游戏术语的指令样本</li>
+  <li><strong>后处理校验</strong> ：用 <code class="language-plaintext highlighter-rouge">json.loads()</code>捕获非法输出</li>
+  <li><strong>安全防护</strong> ：实现用户权限白名单机制</li>
+</ol>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[DeepSeek-R1 游戏指令解析微调项目]]></summary></entry><entry><title type="html">红黑树排行榜python游戏中心</title><link href="http://localhost:4000/Portfolio/2025/04/04/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8E%92%E8%A1%8C%E6%A6%9CPython%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BF%83.html" rel="alternate" type="text/html" title="红黑树排行榜python游戏中心" /><published>2025-04-04T00:00:00+08:00</published><updated>2025-04-04T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2025/04/04/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8E%92%E8%A1%8C%E6%A6%9CPython%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BF%83</id><content type="html" xml:base="http://localhost:4000/Portfolio/2025/04/04/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8E%92%E8%A1%8C%E6%A6%9CPython%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BF%83.html"><![CDATA[<h2 id="欢迎来到python游戏中心">欢迎来到Python游戏中心！</h2>
 
 <p>Python游戏中心是一个集合了多种经典小游戏的在线平台，无需下载安装，打开浏览器即可畅玩所有游戏！</p>
 
@@ -398,26 +535,4 @@
 <ul>
   <li><strong>描述</strong>: 自动抓取去哪儿网站上的火车票信息，包括票价、班次等。</li>
   <li><strong>特点</strong>: 支持多种筛选条件，提供实时的火车票信息。</li>
-</ul>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于Python的数据爬取项目合集]]></summary></entry><entry><title type="html">神经网络短信文本分类器</title><link href="http://localhost:4000/Portfolio/2024/01/10/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9F%AD%E4%BF%A1%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E5%99%A8.html" rel="alternate" type="text/html" title="神经网络短信文本分类器" /><published>2024-01-10T00:00:00+08:00</published><updated>2024-01-10T00:00:00+08:00</updated><id>http://localhost:4000/Portfolio/2024/01/10/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9F%AD%E4%BF%A1%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E5%99%A8</id><content type="html" xml:base="http://localhost:4000/Portfolio/2024/01/10/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9F%AD%E4%BF%A1%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E5%99%A8.html"><![CDATA[<h1 id="神经网络短信文本分类器">神经网络短信文本分类器</h1>
-
-<p><strong>日期</strong>: January 10, 2024
-<strong>作者</strong>: CZY</p>
-
-<h2 id="描述">描述</h2>
-
-<p>本项目实现了一个基于神经网络的短信文本分类器，将短信分为两类：<strong>ham</strong> 和 <strong>spam</strong>。其中，<strong>ham</strong> 消息表示正常的朋友发送的短信，而 <strong>spam</strong> 消息则是公司发送的广告或垃圾信息。通过训练神经网络模型，该分类器可以自动识别并分类新的短信。</p>
-
-<h2 id="功能特点">功能特点</h2>
-
-<ul>
-  <li><strong>短信分类</strong>: 该模型能够区分朋友发来的正常短信（ham）与广告或垃圾信息（spam）。</li>
-  <li><strong>基于神经网络</strong>: 使用神经网络技术来实现高效的文本分类，能够处理大规模数据集并进行实时预测。</li>
-  <li><strong>高效性</strong>: 模型训练完成后，能够快速、准确地识别短信类型，适用于各种实际应用场景，如短信过滤、垃圾信息检测等。</li>
-  <li><strong>基于 TensorFlow 实现</strong>: 项目使用 TensorFlow 进行开发，方便后续的优化和扩展。</li>
-</ul>
-
-<h2 id="附加信息">附加信息</h2>
-
-<p>该短信分类器为广告信息过滤提供了一个有效的解决方案，能够识别并阻挡垃圾信息。它不仅适用于手机短信的分类，也可以扩展到其他文本分类任务，如社交媒体评论的垃圾信息检测。</p>
-
-<p><a href="https://colab.research.google.com/drive/1uo5XwMccgzYlyGIG-npVPJZ2w98lDhWq">项目链接</a></p>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[神经网络短信文本分类器]]></summary></entry></feed>
+</ul>]]></content><author><name>CZY</name></author><summary type="html"><![CDATA[基于Python的数据爬取项目合集]]></summary></entry></feed>
